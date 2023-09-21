@@ -8,11 +8,16 @@ body {
     min-height: 100vh;
 }
 
+a{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
 .header{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 100px;  /* for the space-around */
+    padding: 200px;  /* for the space-around */
     padding-top: 40px;
     align-items: center;
     background-color: #1F2937;
@@ -24,7 +29,7 @@ body {
 .logo{
     margin-right: auto;
     font-weight: 500;
-    font-size: larger;
+    font-size: 30px;
 }
 
 .panelone{
@@ -150,7 +155,7 @@ img {
     display: inline;
     font-size: medium;
     width: 100px;
-    margin-left: 600px;
+    margin-left: 650px;
     font-size: 20px;
     margin-top: 10px;
 }
